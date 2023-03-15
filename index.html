@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/media-query.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
@@ -18,15 +20,27 @@
             <div id="form">
                 <h1>Login</h1>
                 <p>Seja bem-vindo.</p>
-                <form action="login.ph" method="post">
-                    <div>
+                <form action="login.ph" method="post" autocomplete="on">
+                    
+                    <div class="campo">
+                        <i class="material-icons">delete</i>
+                       
+                        <input type="text" name="txtUser" id="iUser" autocomplete="username" required maxlength="30">
                         <label for="iUser">Usuário</label>
-                        <input type="text" name="txtUser" id="iUser">
+                    </div>
+                    <div class="campo">
+                        
+                        <input type="password" name="txtpswd" id="iPassword" autocomplete="current-password" required minlength="8">
+                        <label for="iPassword">Senha</label>
                     </div>
                     <div>
-                        <label for="iPassword">Senha</label>
-                        <input type="password" name="txtpswd" id="iPassword">
+                        <input type="submit" value="Entrar"> <i class="material-icons">login</i>
+                        <a href="esqueciSenha.html">Esqueci a senha <div class="material-icons">mail</div>
+
+                        </a>
+
                     </div>
+
                 </form>
             </div>
         </section>
