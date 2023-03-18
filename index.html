@@ -23,22 +23,18 @@
                 <form action="login.ph" method="post" autocomplete="on">
                     
                     <div class="campo">
-                        <i class="material-icons">delete</i>
+                        <i class="material-icons">person</i>
+                        <input type="text" name="txtUser" id="iUser" autocomplete="username" required maxlength="30" placeholder="User">
                        
-                        <input type="text" name="txtUser" id="iUser" autocomplete="username" required maxlength="30">
-                        <label for="iUser">Usuário</label>
                     </div>
                     <div class="campo">
-                        
-                        <input type="password" name="txtpswd" id="iPassword" autocomplete="current-password" required minlength="8">
-                        <label for="iPassword">Senha</label>
+                        <i class="material-icons">key</i>
+                        <input type="password" name="txtpswd" id="iPassword" autocomplete="current-password" required minlength="8" placeholder="password">
+                       
                     </div>
                     <div>
-                        <input type="submit" value="Entrar"> <i class="material-icons">login</i>
-                        <a href="esqueciSenha.html">Esqueci a senha <div class="material-icons">mail</div>
-
-                        </a>
-
+                        <input type="submit" value="Entrar" >
+                        <a href="esqueciSenha.html" class="botao">Esqueci a senha </a>
                     </div>
 
                 </form>

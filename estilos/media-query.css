@@ -25,6 +25,11 @@ Grandes telas:acima de 1200px
         float: right;
         width: 70%;
        }
+       form input[type=submit]{
+        width: 70%;
+        margin: auto;
+        margin-top: 10px;
+    }
 }
 
 @media screen and (min-width:992px){
@@ -43,5 +48,10 @@ Grandes telas:acima de 1200px
     section#login > div#form{
         float: left;
         width: 50%;
+    }
+    form input[type=submit]{
+        width: 70%;
+        margin: auto;
+        margin-top: 10px;
     }
 }
