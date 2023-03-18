@@ -9,7 +9,7 @@ Desktop: 992px até 1200px
 Grandes telas:acima de 1200px
 */
 
-@media screen and (min-width:768px) and (max-width:992px){
+@media screen and (min-width:830px) and (max-width:992px){
     body{
         background-image: linear-gradient(to bottom, #121a22,#5f7f9f);
     }
@@ -26,10 +26,15 @@ Grandes telas:acima de 1200px
         width: 70%;
        }
        form input[type=submit]{
-        width: 70%;
+        width:70% ;
         margin: auto;
         margin-top: 10px;
     }
+    div .campo > input{
+        width: 90%;
+       
+    }
+ 
 }
 
 @media screen and (min-width:992px){
@@ -53,5 +58,8 @@ Grandes telas:acima de 1200px
         width: 70%;
         margin: auto;
         margin-top: 10px;
-    }
+    }   
+    div .campo>input{
+        width: 90%;
+            }
 }
